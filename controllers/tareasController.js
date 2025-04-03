@@ -1,4 +1,4 @@
-const db = require('../db/connection');
+const db = require('../db/connection.js');
 
 exports.getTareas = (req, res) => {
   db.query('SELECT * FROM tareas', (err, results) => {

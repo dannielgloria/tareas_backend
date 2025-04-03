@@ -1,6 +1,6 @@
 const express = require('express');
 require('dotenv').config();
-const tareasRoutes = require('./routes/tareasRoutes');
+const tareasRoutes = require('./routes/tareasRoutes.js');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
