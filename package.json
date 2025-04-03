@@ -1,0 +1,24 @@
+{
+  "name": "tareas_backend",
+  "version": "1.0.0",
+  "description": "Repositorio de un microservicio de tareas que se usa como ejemplo ludico para que lo consuman alumnos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannielgloria/tareas_backend.git"
+  },
+  "author": "Daniel Gloria Florencio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannielgloria/tareas_backend/issues"
+  },
+  "homepage": "https://github.com/dannielgloria/tareas_backend#readme"
+}
