@@ -16,15 +16,29 @@ Este microservicio permite gestionar tareas a través de una API RESTful utiliza
 - npm
 - Acceso a una base de datos MySQL
 
-## 🚀 Cómo ejecutar el proyecto
+## 🚀 Cómo clonar, instalar y ejecutar el proyecto
+
+1. **Clona el repositorio**
 
 ```bash
-git clone <repo>
-cd tareas-api
+git clone https://github.com/dannielgloria/tareas_backend.git
+cd tareas_backend
+```
+
+2. **Instala las dependencias**
+
+```bash
 npm install
-cp .env.example .env
+```
+
+3. **Ejecuta el servidor**
+
+```bash
 npm start
 ```
+
+El servicio estará disponible en:  
+👉 `http://localhost:3000`
 
 ## 📡 Endpoints disponibles
 
