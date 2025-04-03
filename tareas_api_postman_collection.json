@@ -1,0 +1,100 @@
+{
+  "info": {
+    "name": "Tareas API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /tareas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/tareas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "tareas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST /tareas",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tarea\": \"Estudiar Node.js\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/tareas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "tareas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT /tareas/:id",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tarea\": \"Leer documentaci\\u00f3n de Express\",\n  \"terminado\": true\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/tareas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "tareas",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE /tareas/:id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/tareas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "tareas",
+            "1"
+          ]
+        }
+      }
+    }
+  ]
+}
